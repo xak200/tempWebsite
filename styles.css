@@ -1,0 +1,28 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    background-image:url('https://harrietrachelstudio.files.wordpress.com/2018/02/floral-desktop-wallpaper-floral-desktop-background-0121.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Josefin Sans'
+}
+
+#content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    opacity: 0.8;
+    text-align: center;
+}
+
+#coming {
+    font-size: 50px;
+    font-family: 'Josefin Sans'
+}
+
+#small {
+    font-size: 28px;
+}
