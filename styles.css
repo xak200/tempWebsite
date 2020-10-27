@@ -16,13 +16,24 @@ html, body {
     background-color: white;
     opacity: 0.8;
     text-align: center;
+    padding: 20px;
 }
 
 #coming {
     font-size: 50px;
-    font-family: 'Josefin Sans'
 }
 
 #small {
     font-size: 28px;
+}
+
+#smaller {
+    font-size: 20px;
+}
+
+#updated {
+    font-size: 12px;
+    font-weight: bold;
+    float: right;
+    padding: 10px;
 }
