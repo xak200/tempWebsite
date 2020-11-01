@@ -25,11 +25,11 @@ html, body {
 }
 
 #small {
-    font-size: 2em;
+    font-size: 200%;
 }
 
 #smaller {
-    font-size: 1.2em;
+    font-size: 120%;
 }
 
 #updated {
@@ -38,3 +38,21 @@ html, body {
     float: right;
     padding: 10px;
 }
+
+@media only screen and (max-width: 1000px) {
+    #content {
+        width: 75%;
+    }
+
+    #coming {
+        font-size: 575%;
+    }
+    
+    #small {
+        font-size: 300%;
+    }
+    
+    #smaller {
+        font-size: 200%;
+    }
+  }
